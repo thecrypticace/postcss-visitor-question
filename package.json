@@ -1,0 +1,13 @@
+{
+  "name": "postcss-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "postcss ./src/index.css -o ./out.css"
+  },
+  "dependencies": {
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
+  }
+}
